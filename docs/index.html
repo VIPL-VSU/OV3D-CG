@@ -169,6 +169,22 @@ Institute of Computing Technology, CAS, Beijing, 100190, China<br>
 </section>
 <!-- End method -->
 
+    <style>
+    .image-container {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px; /* 设置图片之间的间距 */
+    }
+    figure {
+      width: 45%; /* 设置每张图片的宽度 */
+      text-align: center;
+    }
+    img {
+      width: 100%; /* 让图片自适应figure的宽度 */
+      height: auto;
+    }
+  </style>
+
     <!-- method -->
 <section class="section hero">
   <div class="container is-max-desktop">
@@ -176,18 +192,19 @@ Institute of Computing Technology, CAS, Beijing, 100190, China<br>
       <div class="column" style="width: 100%;">
         <h2 class="title is-3">Quantitave Results</h2>
         <div class="content has-text-justified">
-          <p>
-          <figure style="text-align:center;">
-            <img src="imgs/vis_1.jpg" alt="none" style="width:385px; height:275px;">
-            <figcaption>"potted plant"</figcaption>
-          <img src="imgs/vis_2.jpg" alt="none" style="width:385px; height:275px;">
-          <figcaption>"fireplace"</figcaption>
+          <div class="image-container">
+    <!-- 第一张图片及标题 -->
+            <figure>
+              <img src="imgs/vis_1.jpg" alt="none" style="width:350px; height:250px;">
+              <figcaption>这是第一张图的标题</figcaption>
             </figure>
-<!--          <figure style="text-align:center;">-->
-<!--            <img src="imgs/vis_2.jpg" alt="none" style="width:385px; height:275px;">-->
-<!--            <figcaption>"fireplace"</figcaption>-->
-<!--            </figure>-->
-          </p>
+
+    <!-- 第二张图片及标题 -->
+            <figure>
+              <img src="imgs/vis_2.jpg" alt="none" style="width:350px; height:250px;">
+              <figcaption>这是第二张图的标题</figcaption>
+            </figure>
+          </div>
         </div>
       </div>
     </div>
