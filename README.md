@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
 
   <h1 align="center">OV3D-CG: Open-Vocabulary 3D Instance Segmentation</h1>
@@ -29,3 +30,8 @@ Institute of Computing Technology, CAS, Beijing, 100190, China
 ---
 ## Code
 Upcoming Soon...
+=======
+# OV3D-CG
+
+code comming soon
+>>>>>>> 2af7e1d885a66119f6085a602e4d71600520ff8d
