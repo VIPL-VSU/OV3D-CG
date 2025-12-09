@@ -1,0 +1,18 @@
+{
+  "api_settings": {
+    "gemini_api_key": "YOUR GEMINI API KEY HERE"
+  },
+  "paths": {
+    "scannet_root": "/PATH/ScanNet",
+    "scene_list_file": "evaluation/val_scenes_scannet200.txt",
+    "mask_3d_dir": "sai3d_masks",
+    "mask_2d_save_dir": "sai3d_masks_2d",
+    "sam_checkpoint": "/PATH/sam_vit_h_4b8939.pth"
+  },
+  "parameters": {
+    "stride": 10,
+    "image_width": 640,
+    "image_height": 480,
+    "prompt_method": "sam_mask"
+  }
+}
