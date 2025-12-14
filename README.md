@@ -25,6 +25,9 @@ Institute of Computing Technology, CAS, Beijing, 100190, China
 > **Abstract:** Open-vocabulary 3D instance segmentation (OV-3DIS), which aims to segment and classify objects beyond predefined categories, is a critical capability for embodied AI applications. Existing methods rely on pre-trained 2D foundation models, focusing on instance-level features while overlooking contextual relationships, limiting their ability to generalize to rare or ambiguous objects. To address these limitations, we propose an OV-3DIS framework guided by contextual information. First, we employ a Class-agnostic Proposal Module, integrating a pre-trained 3D segmentation model with a SAM-guided segmenter to extract robust 3D instance masks. Subsequently, we design a Semantic Reasoning Module, which selects the best viewpoint for each instance and constructs three 2D context-aware representations. The representations are processed using Multimodal Large Language Models with Chain-of-Thought prompting to enhance semantic inference. Notably, our method outperforms state-of-the-art methods on the ScanNet200 and Replica datasets, demonstrating superior open-vocabulary segmentation capabilities. Moreover, preliminary implementation in real-world scenarios verifies our method's robustness and accuracy, highlighting its potential for embodied AI tasks such as object-driven navigation.
 ---
 ## Installation
+
+---
+
  ```bash
  git clone https://github.com/VIPL-VSU/OV3D-CG.git
  conda create -n ov3dcg python=3.10 -y
@@ -32,10 +35,10 @@ Institute of Computing Technology, CAS, Beijing, 100190, China
  cd OV3D-CG
  pip install -r requirements.txt
  ```
----
 
 ## Usage
 
+---
 ### Step 1: Prepare the Dataset
 We recommend to save the ScanNet data with the following structure.
 ```text
@@ -127,3 +130,16 @@ gt/
     python eval_semantic_instance.py
 ```
 - The evaluation results will be saved in file `scannet200_res.txt`.
+
+## Citation
+
+---
+```text
+@inproceedings{zhou2025ov3d,
+  title={OV3D-CG: Open-vocabulary 3D Instance Segmentation with Contextual Guidance},
+  author={Zhou, Mingquan and He, Chen and Wang, Ruiping and Chen, Xilin},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={5305--5314},
+  year={2025}
+}
+```
