@@ -13,7 +13,7 @@ Institute of Computing Technology, CAS, Beijing, 100190, China
     <sup>2</sup>University of Chinese Academy of Sciences, Beijing, 100049, China
   </p>
   <h2 align="center">ICCV 2025</h2>
-  <h3 align="center"><a href="https://arxiv.org/">Paper</a> | <a href="https://vipl-vsu.github.io/OV3D-CG/">Project Page</a> </h3>
+  <h3 align="center"><a href="https://openaccess.thecvf.com/content/ICCV2025/html/Zhou_OV3D-CG_Open-vocabulary_3D_Instance_Segmentation_with_Contextual_Guidance_ICCV_2025_paper.html">Paper</a> | <a href="https://vipl-vsu.github.io/OV3D-CG/">Project Page</a> </h3>
   <div align="center"></div>
 <br>
 <p align="center">
