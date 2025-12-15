@@ -121,7 +121,7 @@ prompt_method --> "crop" or "bbox" or "circle" or "sam_mask"
 ```text
 gt/
       ├── scene0011_00.txt 
-      └── scene0011_01.json
+      └── scene0011_01.txt
       └── ...
 ```
 - Run the evaluation script:
